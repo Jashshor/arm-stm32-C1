@@ -1,0 +1,4 @@
+Dependencies for Project 'GPIO_c', Target 'Target 1': (DO NOT MODIFY !)
+F (.\gpio_c.c)(0x5ED3DBF0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I "C:\Users\lenovo\Desktop\Studying Place\¿Î³Ì\weiji\xiti\GPIO_c\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_LD-o .\objects\gpio_c.o --omf_browse .\objects\gpio_c.crf --depend .\objects\gpio_c.d)
+I (stm32f103.h)(0x5ED3C99B)
+F (.\gpio_c.s)(0x5ED3DB41)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Users\lenovo\Desktop\Studying Place\¿Î³Ì\weiji\xiti\GPIO_c\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_LD SETA 1"--list .\listings\gpio_c.lst --xref -o .\objects\gpio_c_1.o --depend .\objects\gpio_c_1.d)

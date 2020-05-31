@@ -1,0 +1,54 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Objects\GPIO_c.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Objects\GPIO_c.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Mon Jun 01 00:31:45 2020
+<BR><P>
+<H3>Maximum Stack Usage =          8 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+gpio_a
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[4]">Reset_Handler</a> from gpio_c_1.o(RESET) referenced from gpio_c_1.o(RESET)
+ <LI><a href="#[2]">SUMMATION</a> from gpio_c_1.o(RESET) referenced from gpio_c_1.o(RESET)
+ <LI><a href="#[1]">SVC_Handler</a> from gpio_c_1.o(RESET) referenced from gpio_c_1.o(RESET)
+ <LI><a href="#[3]">gpio_a</a> from gpio_c.o(i.gpio_a) referenced from gpio_c_1.o(RESET)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[5]"></a>my_asm_func</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gpio_c_1.o(RESET))
+<BR><BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_a
+</UL>
+
+<P><STRONG><a name="[4]"></a>Reset_Handler</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, gpio_c_1.o(RESET))
+<BR><BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Light
+</UL>
+
+<P><STRONG><a name="[6]"></a>Light</STRONG> (Thumb, 128 bytes, Stack size 0 bytes, gpio_c.o(i.Light))
+<BR><BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Reset_Handler
+</UL>
+
+<P><STRONG><a name="[3]"></a>gpio_a</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, gpio_c.o(i.gpio_a))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = gpio_a
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;my_asm_func
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> gpio_c_1.o(RESET)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[1]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, gpio_c_1.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> gpio_c_1.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>SUMMATION</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, gpio_c_1.o(RESET))
+<BR>[Address Reference Count : 1]<UL><LI> gpio_c_1.o(RESET)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
